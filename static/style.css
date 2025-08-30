@@ -1,0 +1,88 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f6f9;
+  color: #333;
+}
+
+/* Title */
+h1 {
+  font-weight: 700;
+  color: #0a66c2; /* LinkedIn blue */
+}
+
+/* Form Card */
+form.card {
+  border-radius: 12px;
+  border: none;
+  background: #ffffff;
+}
+
+/* Input Fields */
+form .form-control {
+  border-radius: 8px;
+  border: 1px solid #d0d7de;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+
+form .form-control:focus {
+  border-color: #0a66c2;
+  box-shadow: 0 0 0 0.2rem rgba(10, 102, 194, 0.25);
+}
+
+/* Submit Button */
+form .btn-primary {
+  background: #0a66c2;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+form .btn-primary:hover {
+  background: #004182;
+}
+
+/* Posts Section */
+h3 {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Post Cards */
+.card.h-100 {
+  border-radius: 12px;
+  border: none;
+  background: #ffffff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card.h-100:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-body {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Copy Button (optional if added later) */
+.copy-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #e8f0fe;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #0a66c2;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.copy-btn:hover {
+  background: #d0e2fc;
+}
